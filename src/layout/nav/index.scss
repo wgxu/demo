@@ -1,0 +1,20 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  height: 42px;
+  background-color: #2465db;
+  color:#fff;
+  .nav-left {
+    display: flex;
+    .nav-item {
+      padding: 10px 40px;
+      cursor: pointer;
+    }
+  }
+  .nav-right {
+    font-weight: bold;
+    cursor: pointer;
+  }
+}
